@@ -4,10 +4,15 @@ In software development, target failure rates define the acceptable level of bug
 •	**Test Planning and Scope**: The target failure rate dictates the testing effort required. A stricter target necessitates more rigorous testing, including a wider range of test cases and potentially more complex testing techniques.
 
 •	Pass/Fail Criteria: The target directly impacts the decision to release software. If the identified bugs during testing fall within the acceptable failure rate, the software might be considered ready for release. Conversely, exceeding the target could lead to delays for further testing and bug fixing.
+
 •	Risk Management: Software failures can have varying consequences, ranging from minor inconveniences to critical security breaches. Severity should be factored in alongside the target failure rate. Even a small number of high-severity bugs might necessitate delaying release.
-Challenges in Software Testing:
+
+**Challenges in Software Testing:**
+
 •	Estimating Failure Rates: Unlike hardware systems where physical defects are easier to quantify, software failures can be more nuanced and context-dependent. Estimating a realistic target failure rate can be challenging, especially for complex software.
+
 •	Test Coverage vs. Exhaustive Testing: It's practically impossible to test every possible scenario for a large software system. Testers have to make strategic decisions about which areas to focus on, aiming to achieve the highest possible code coverage within resource constraints.
+
 Reliability Growth Analysis (RGA) in Software Testing
 RGA can be a valuable tool in software testing:
 Advantages:
