@@ -1,6 +1,7 @@
 ### A discussion on decision making given a target failure rate
 In software development, target failure rates define the acceptable level of bugs or defects in a released product. Here's how they influence decision making in software testing:
-•	Test Planning and Scope: The target failure rate dictates the testing effort required. A stricter target necessitates more rigorous testing, including a wider range of test cases and potentially more complex testing techniques.
+
+•	**Test Planning and Scope**: The target failure rate dictates the testing effort required. A stricter target necessitates more rigorous testing, including a wider range of test cases and potentially more complex testing techniques.
 
 •	Pass/Fail Criteria: The target directly impacts the decision to release software. If the identified bugs during testing fall within the acceptable failure rate, the software might be considered ready for release. Conversely, exceeding the target could lead to delays for further testing and bug fixing.
 •	Risk Management: Software failures can have varying consequences, ranging from minor inconveniences to critical security breaches. Severity should be factored in alongside the target failure rate. Even a small number of high-severity bugs might necessitate delaying release.
